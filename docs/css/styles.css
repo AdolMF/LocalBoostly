@@ -62,14 +62,16 @@ body {
 }
 
 
-#contenedor > header > p {
+#contenedor > header p {
     font-family: 'subtitle-font';
     font-size: 1.5rem;
 }
 
 #contenedor > header #title-header {
+    color: var(--primary-color);
     font-family: 'main-font';
     font-size: 2rem;
+    cursor: pointer;
 }
 
 
@@ -84,7 +86,6 @@ body {
     display: none;
     float: left;
     cursor: pointer;
-    border: solid 0.2rem;
     padding: .3rem;
     border-radius: .3rem;
 }
@@ -111,10 +112,6 @@ body {
     column-gap: 3rem;
     flex-wrap: wrap;
 }
-
-
-
-
 
 #follow-menu {
     display: none;
@@ -312,6 +309,9 @@ body {
 
 }
 
+    /* Importamos css para pestaña de about us */
+    @import url('../css/about.css');
+
 
 @media (max-width: 1300px) {
     #subcontenedor {
@@ -362,7 +362,7 @@ body {
     }
 
     #ckbox:checked~.menu-box {
-        top: 14.3vh;
+        top: 16vh;
         display: flex;
     }
 
@@ -383,6 +383,7 @@ body {
         font-size: small;
     }
 
+    
 }
 @media (max-width: 768px) {
     /* Movil horizontal */

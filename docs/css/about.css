@@ -1,0 +1,130 @@
+
+@import url('../css/styles.css');
+
+#about-subcontenedor {
+    display:flex;
+    flex-direction: column;
+    justify-self: center;
+    width: 80%;
+    height: 100%;
+    gap: 1rem;
+    padding: 2rem;
+    color: var(--primary-color);
+}
+
+#about-subcontenedor > div {
+    border-radius: 1rem;
+}
+
+#about-subcontenedor > div h2 {
+    font-family: 'main-font';
+    margin-bottom: .7rem;
+    border-bottom: .1rem solid var(--primary-color);
+}
+
+#about-subcontenedor > div h3 {
+    font-family: 'main-font';
+    font-size: medium;
+}
+
+#about-subcontenedor > div p {
+    font-family: 'parrafo-font';
+}
+
+#about-sub-subcontenedor {
+    display: flex;
+    gap: 1rem;
+    border-radius: 1rem;
+}
+
+#about-sub-subcontenedor div {
+    background-color: var(--secondary-color);
+    gap: 1rem;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+#about-subcontenedor #about-valores {
+    background-color: var(--secondary-color);
+    padding: 1rem;
+}
+
+#about-subcontenedor #about-valores ul {
+    display: flex;
+    gap: .7rem;
+   
+}
+
+#about-subcontenedor #about-valores ul li {
+    flex-wrap: flex;
+    padding: 1rem;
+    justify-content:space-between;
+    color:  var(--primary-color);
+    background-color: var(--secondary-color);
+    border: .2rem solid var(--third-color);
+    border-radius: 1rem;
+}
+
+#about-subcontenedor #about-valores ul li:hover {
+    flex-wrap: flex;
+    padding: 1rem;
+    justify-content:space-between;
+    color:  var(--secondary-color);
+    background-color: var(--primary-color);
+    border: .2rem solid var(--primary-color);
+    border-radius: 1rem;
+}
+
+#about-mascota {
+    background-color: var(--secondary-color);
+    align-items: center;
+    padding: 1rem;
+    display: flex;
+    gap: 1rem;
+    border-radius: 1rem;
+}
+
+#about-mascota img {
+    height: 10%;
+    width: 10%
+}
+
+@media (max-width: 1300px) {
+
+}
+
+@media (max-width: 1024px) {
+    #about-subcontenedor #about-valores ul{
+        flex-wrap: flex;
+        flex-direction: column;
+    }
+}
+ 
+@media (max-width: 768px) {
+    /* Movil horizontal */
+
+    #about-sub-subcontenedor {
+        flex-wrap: flex;
+        flex-direction: column;
+    }
+
+    #about-mascota {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #about-mascota img{
+        width:40%;
+        height: auto;
+    }
+
+}
+
+
+@media (max-width: 480px) {
+    /* Movil vertical */
+
+    
+
+
+}
