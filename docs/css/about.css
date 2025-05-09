@@ -2,10 +2,11 @@
 @import url('../css/styles.css');
 
 #about-subcontenedor {
+    background-color: green;
     display:flex;
     flex-direction: column;
     justify-self: center;
-    width: 80%;
+    width: 100%;
     height: 100%;
     gap: 1rem;
     padding: 2rem;
