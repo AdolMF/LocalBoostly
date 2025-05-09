@@ -3,7 +3,7 @@
 #contacto-subcontenedor {
     width: 100%;
     margin-top: 4rem;
-    margin-bottom: 3rem;
+    margin-bottom: 1.8rem;
 }
 
 #contacto-subcontenedor form {
@@ -101,6 +101,7 @@
     flex-wrap: wrap;
     justify-content: center;
     column-gap: 4rem;
+    row-gap: 1rem;
     align-items: center;
 }
 
@@ -121,4 +122,42 @@
     font-size: larger;
     width: 14rem;
     transition: .3s;
+}
+
+@media (max-width: 1300px) {
+
+}
+
+@media (max-width: 1024px) {
+    #about-subcontenedor #about-valores ul{
+        flex-wrap: flex;
+        flex-direction: column;
+    }
+}
+ 
+@media (max-width: 768px) {
+    /* Movil horizontal */
+
+    #about-sub-subcontenedor {
+        flex-wrap: flex;
+        flex-direction: column;
+    }
+
+    #about-mascota {
+        display: flex;
+        flex-direction: column;
+    }
+
+}
+
+
+@media (max-width: 480px) {
+    /* Movil vertical */
+#contacto-subcontenedor form > div > input {
+    width: 17rem;
+}
+
+#contacto-subcontenedor form > div > input:hover {
+    width: 18rem;
+}
 }
