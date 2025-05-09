@@ -2,8 +2,6 @@
 
 #process-subcontenedor {
     background-color: var(--secondary-color);
-    margin-top: 4rem;
-    margin-bottom: 3rem;
     display: flex;
     flex-direction: row;
     width: 80%;
@@ -11,6 +9,9 @@
     align-content: center;
     padding: 2rem ;
     border-radius: 2rem;
+    margin: 0 auto;
+    margin-top: 4rem;
+    margin-bottom: 3rem;
 }
 
 

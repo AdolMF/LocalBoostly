@@ -5,12 +5,13 @@
     display:flex;
     flex-direction: column;
     justify-self: center;
-    margin-top: 1rem;
     width: 80%;
     height: 100%;
     gap: 1rem;
     padding: 2rem;
     color: var(--primary-color);
+    margin: 0 auto;
+    margin-top: 1rem;
 }
 
 #about-subcontenedor > div {
@@ -86,8 +87,9 @@
 }
 
 #about-mascota img {
-    height: 10%;
-    width: 10%
+    width: 16rem;
+    height: auto;
+    
 }
 
 @media (max-width: 1300px) {
@@ -112,11 +114,6 @@
     #about-mascota {
         display: flex;
         flex-direction: column;
-    }
-
-    #about-mascota img{
-        width:40%;
-        height: auto;
     }
 
 }

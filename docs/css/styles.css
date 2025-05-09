@@ -35,7 +35,7 @@ body {
 
 #contenedor {
     padding-top: 5rem;
-    display: flexbox;
+    display: flex;
     flex-wrap:wrap;
     padding-bottom: 4rem;
 }
