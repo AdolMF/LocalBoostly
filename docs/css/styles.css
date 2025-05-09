@@ -437,8 +437,8 @@ body {
 
     #contenedor > footer > ul {
     display: flex;
-    flex-direction: column;
-    font-size: x-small;
+    flex-direction: row;
+    font-size: small;
     }
 
 }
