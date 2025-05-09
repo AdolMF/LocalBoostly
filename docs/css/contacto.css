@@ -1,0 +1,124 @@
+@import url('../css/styles.css');
+
+#contacto-subcontenedor {
+    width: 100%;
+    margin-top: 4rem;
+    margin-bottom: 3rem;
+}
+
+#contacto-subcontenedor form {
+    background-color: var(--secondary-color);
+    border-radius: 2rem;
+    padding: 2rem;
+    margin: 0 auto;
+    width: 90%;
+    color: var(--primary-color);
+}
+
+#contacto-subcontenedor form fieldset {
+    border: o.1rem solid var(--secondary-color);
+    border-radius: 1rem;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 2rem;
+}
+
+#contacto-subcontenedor form legend {
+    font-family: 'main-font';
+    font-size: large;
+    border: none;
+    margin-bottom: .3rem;
+}
+
+#contacto-subcontenedor form ul
+ {
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    row-gap: .6rem;
+    width: 95%;
+}
+
+#contacto-subcontenedor form select
+ {  
+    cursor: pointer;
+    font-family: 'subtitle-font';
+    color: var(--primary-color);
+    background-color: transparent;
+    display: flex;
+    justify-self: center;
+    width: 95%;
+    border: none;
+    border-bottom: 0.01rem solid var(--third-color);
+    border-radius: .4rem;
+    padding: .3rem;
+}
+
+#contacto-subcontenedor form select:hover
+ {  
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    border: none;
+}
+
+
+#contacto-subcontenedor form p {
+    font-family: 'parrafo-font'
+}
+
+#contacto-subcontenedor form input{
+    background-color: transparent;
+    font-family: 'subtitle-font';
+    width: 100%;
+    border: 0;
+    border-bottom: 0.01rem solid var(--third-color);
+    border-top: none;
+    border-radius: .4rem;
+    padding: .3rem;
+
+}
+
+#contacto-subcontenedor form option {
+    font-family: 'subtitle-font';  
+}
+
+#contacto-subcontenedor form textarea {
+    font-family: 'subtitle-font';
+    color: var(--primary-color);
+    background-color: transparent;
+    display: flex;
+    justify-self: center;
+    width: 95%;
+    border: 0.01rem solid var(--third-color);
+    border-radius: .4rem;
+    padding: .3rem;
+}
+
+#contacto-subcontenedor form > div {
+    border: none;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 4rem;
+    align-items: center;
+}
+
+#contacto-subcontenedor form > div > input {
+    cursor: pointer;
+    font-family: 'main-font';
+    color: var(--secondary-color);
+    background-color: var(--primary-color);
+    border: none;
+    width: 13rem;
+    transition: .3s;
+}
+
+#contacto-subcontenedor form > div > input:hover {
+    background-color: var(--secondary-color);
+    border: 0.1rem solid var(--primary-color);
+    color: var(--third-color);
+    font-size: larger;
+    width: 14rem;
+    transition: .3s;
+}
