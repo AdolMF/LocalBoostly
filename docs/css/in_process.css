@@ -1,0 +1,62 @@
+@import url('../css/styles.css');
+
+#process-subcontenedor {
+    background-color: var(--secondary-color);
+    margin-top: 4rem;
+    margin-bottom: 3rem;
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    justify-self: center;
+    align-content: center;
+    padding: 2rem ;
+    border-radius: 2rem;
+}
+
+
+#process-img {
+    padding: 1rem;
+    align-self: center;
+    
+}
+
+#process-img img {
+    width: 20rem;
+}
+
+
+#process-info {
+    padding: 3rem;
+    align-self: center;
+    color: var(--primary-color);
+}
+
+
+#process-info h1 {
+    margin-bottom: 2rem;
+    border-bottom: .1rem solid var(--third-color);
+
+}
+
+
+@media (max-width: 1300px) {
+
+}
+
+@media (max-width: 1024px) {
+    #process-subcontenedor {
+        display: flex;
+        flex-direction: column;
+    } 
+}
+ 
+@media (max-width: 768px) {
+    /* Movil horizontal */
+
+}
+
+
+@media (max-width: 480px) {
+    /* Movil vertical */
+
+}

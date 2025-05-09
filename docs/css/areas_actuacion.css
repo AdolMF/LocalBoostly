@@ -1,0 +1,90 @@
+@import url('../css/styles.css');
+
+
+
+#areas-info {
+margin-top: 3.4rem;
+width: 65%;
+justify-self: center;
+justify-items: center;
+justify-content: center;
+padding: .5rem;
+border-bottom: .1rem solid var(--secondary-color);
+}
+
+#areas-info p {
+    color: var(--secondary-color);
+    font-family: 'subtitle-font';
+    justify-self: center;
+    justify-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+
+
+#areas-subcontenedor {
+    width: 90%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    justify-self: center;
+    justify-items: center;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+#areas-subcontenedor  div {
+    cursor: pointer;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    border: .2rem solid var(--secondary-color);
+    width: 20rem;
+    height: 12rem;
+    padding: 1rem;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    border-radius: 1rem;
+    transition: all .3s;
+}
+
+#areas-subcontenedor  .area-ckbox input:checked~div {
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    font-size: larger;
+    width: 23rem;
+    height: 20rem;
+    text-align: left;
+    justify-content: space-between;
+    transition: all .3s;
+}
+
+
+
+#areas-subcontenedor  div > h2 {
+    font-family: 'main-font';
+    padding:.7rem;
+    transition: all .3s;
+}
+
+#areas-subcontenedor  div > p {
+    display:none;
+}
+
+#areas-subcontenedor  .area-ckbox input:checked~div h2 {
+    border-bottom: .1rem solid var(--third-color);
+    transition: all .3s;
+}
+
+#areas-subcontenedor  .area-ckbox input:checked~div p {
+    display:flex;
+    padding: .5rem;
+    font-family: 'parrafo-font';
+}
+
+
+
+
