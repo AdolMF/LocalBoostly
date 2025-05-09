@@ -2,7 +2,6 @@
 @import url('../css/styles.css');
 
 #about-subcontenedor {
-    background-color: green;
     display:flex;
     flex-direction: column;
     justify-self: center;
